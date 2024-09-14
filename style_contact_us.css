@@ -1,0 +1,177 @@
+html {
+    margin: 0px;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 20px;
+    padding: 15px;
+    font-family: "Fredoka One", sans-serif;
+    width: 70%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+
+ul {
+    margin: 0px;
+}
+body > header {
+    background-color: olivedrab;
+    color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-ul {
+    display: flex;
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 90%;
+    margin: auto;
+}
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+#main-content aside {
+    width: 10%;
+}
+#main-content > div {
+    width: 90%;
+}
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+body > footer {
+    background-color: olivedrab;
+    display: flex;
+}
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+    
+img {
+    border-radius: 100%;
+}
+body {
+    margin: 0;
+}
+
+header {
+    padding: 16px;
+    background-color: olivedrab;
+    color: white;
+    text-align: center;
+    grid-area: header;
+}
+#menu {
+    padding: 32px;
+    background-color: olivedrab;
+    grid-area: menu;
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+#main-content {
+    padding: 32px;
+    grid-area: main;
+}
+
+footer {
+    padding: 16px;
+    background-color: olivedrab;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-area: footer;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 6fr;
+}
+
+.dropbtn {
+    background-color: darkgreen;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: white;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+ 
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
